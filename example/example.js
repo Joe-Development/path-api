@@ -1,9 +1,9 @@
-const scrape = require('path-api');
+const status = require('path-api');
 
 (async () => {
     try {
-        const status = await scrape();
-        console.log('Status:', status);
+        const path = await status();
+        console.log('Status:', path);
     } catch (error) {
         console.error('Error:', error.message);
     }
