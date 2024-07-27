@@ -29,4 +29,5 @@ function scrapePathStatus() {
         }
     });
 }
-exports.default = scrapePathStatus;
+
+module.exports = scrapePathStatus;
